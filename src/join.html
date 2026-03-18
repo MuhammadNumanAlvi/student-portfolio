@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join a Club | University Student Clubs Portal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/pages/join.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="nav" aria-label="Main navigation">
+        <div class="nav-inner">
+          <a href="index.html" class="nav-brand">
+            <div class="nav-logo" aria-hidden="true">UC</div>
+            <div class="nav-title">
+              Student Clubs
+              <span>University Portal</span>
+            </div>
+          </a>
+          <button class="nav-toggle" type="button" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <nav class="nav-links" aria-label="Primary navigation">
+            <a href="index.html" class="nav-link">
+              <span>Home</span>
+              <i class="fa-solid fa-house"></i>
+            </a>
+            <a href="clubs.html" class="nav-link">
+              <span>Clubs</span>
+              <i class="fa-solid fa-layer-group"></i>
+            </a>
+            <a href="events.html" class="nav-link">
+              <span>Events</span>
+              <i class="fa-solid fa-calendar-days"></i>
+            </a>
+            <a href="join.html" class="nav-link active">
+              <span>Join</span>
+              <i class="fa-solid fa-user-plus"></i>
+            </a>
+            <a href="highlights.html" class="nav-link">
+              <span>Highlights</span>
+              <i class="fa-solid fa-star"></i>
+            </a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="container">
+          <header class="section-header">
+            <p class="badge">
+              <i class="fa-solid fa-route"></i>
+              Application journey
+            </p>
+            <h1 class="section-title">A clear, structured way to join student clubs.</h1>
+            <p class="page-intro">
+              Follow the steps below to discover clubs, share your interests, and meet leadership teams. The process is consistent across categories so you always know what to expect at each stage.
+            </p>
+          </header>
+
+          <div class="steps-layout">
+            <section aria-label="Joining steps">
+              <div class="steps-timeline">
+                <article class="step">
+                  <div class="step-marker" aria-hidden="true"></div>
+                  <div class="step-card glass-soft">
+                    <p class="step-label">Step 01</p>
+                    <h2 class="step-title">
+                      Explore clubs and shortlist your top choices
+                    </h2>
+                    <p class="step-body">
+                      Visit the clubs overview page, filter by category, and identify two to four clubs that align with your goals, schedule, and energy levels. Look for clubs that complement your academic path rather than mirror it.
+                    </p>
+                    <div class="step-meta">
+                      <span class="pill">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        20–30 minutes
+                      </span>
+                      <span class="pill">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Start from the Clubs page
+                      </span>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="step">
+                  <div class="step-marker" aria-hidden="true"></div>
+                  <div class="step-card glass-soft">
+                    <p class="step-label">Step 02</p>
+                    <h2 class="step-title">
+                      Submit a short application for each club
+                    </h2>
+                    <p class="step-body">
+                      Complete the club‑specific application form shared on the club’s profile or social channels. Focus on your motivation, availability, and any prior exposure instead of trying to present a perfect resume.
+                    </p>
+                    <div class="step-meta">
+                      <span class="pill">
+                        <i class="fa-solid fa-file-pen"></i>
+                        10–15 questions
+                      </span>
+                      <span class="pill">
+                        <i class="fa-solid fa-calendar-plus"></i>
+                        Deadlines vary by club
+                      </span>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="step">
+                  <div class="step-marker" aria-hidden="true"></div>
+                  <div class="step-card glass-soft">
+                    <p class="step-label">Step 03</p>
+                    <h2 class="step-title">
+                      Attend the welcome call or interview
+                    </h2>
+                    <p class="step-body">
+                      Shortlisted students receive an invitation to a welcome conversation, which might range from a casual group call to a structured interview. This is your opportunity to ask questions and understand expectations.
+                    </p>
+                    <div class="step-meta">
+                      <span class="pill">
+                        <i class="fa-solid fa-video"></i>
+                        Online or on‑campus
+                      </span>
+                      <span class="pill">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                        Meet core team members
+                      </span>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="step">
+                  <div class="step-marker" aria-hidden="true"></div>
+                  <div class="step-card glass-soft">
+                    <p class="step-label">Step 04</p>
+                    <h2 class="step-title">
+                      Join the onboarding sprint and first project
+                    </h2>
+                    <p class="step-body">
+                      Once confirmed, you will be onboarded into the club’s workspace and communication channels. Expect a short sprint of orientation tasks to learn the tools, workflows, and expectations before diving into a live project or event.
+                    </p>
+                    <div class="step-meta">
+                      <span class="pill">
+                        <i class="fa-solid fa-circle-nodes"></i>
+                        Tools &amp; channels setup
+                      </span>
+                      <span class="pill">
+                        <i class="fa-solid fa-rocket-launch"></i>
+                        First contribution in 2–4 weeks
+                      </span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <aside class="steps-sidebar glass" aria-label="Guidance and expectations">
+              <header>
+                <h2>Set realistic expectations from day one.</h2>
+                <p class="highlight-pill">
+                  <i class="fa-solid fa-circle-info"></i>
+                  Clubs are designed to complement your academics, not compete with them.
+                </p>
+              </header>
+              <ul class="steps-sidebar-list">
+                <li>
+                  <i class="fa-solid fa-clock-rotate-left"></i>
+                  <span>Most clubs expect a 3–5 hour weekly commitment during active seasons, with lighter workload during exams.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-people-group"></i>
+                  <span>Leadership roles typically open after at least one semester of consistent contribution.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-scale-balanced"></i>
+                  <span>You may join multiple clubs, but prioritize depth and reliability over quantity.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope-open-text"></i>
+                  <span>Always respond to club communication promptly, even if it is to decline or reschedule.</span>
+                </li>
+              </ul>
+
+              <div class="btn-row" style="margin-top: 1.5rem">
+                <a href="clubs.html" class="btn btn-outline">
+                  <span>Review clubs</span>
+                  <i class="fa-solid fa-layer-group"></i>
+                </a>
+                <a href="events.html" class="btn btn-primary">
+                  <span>Meet clubs at events</span>
+                  <i class="fa-solid fa-calendar-week"></i>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-inner">
+          <p>&copy; <span id="year"></span> University Student Clubs Portal. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="highlights.html">
+              <i class="fa-solid fa-star-half-stroke"></i>
+              View success stories
+            </a>
+            <a href="index.html">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Back to home
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
