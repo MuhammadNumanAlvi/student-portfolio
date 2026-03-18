@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Highlights | University Student Clubs Portal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/pages/highlights.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="nav" aria-label="Main navigation">
+        <div class="nav-inner">
+          <a href="index.html" class="nav-brand">
+            <div class="nav-logo" aria-hidden="true">UC</div>
+            <div class="nav-title">
+              Student Clubs
+              <span>University Portal</span>
+            </div>
+          </a>
+          <button class="nav-toggle" type="button" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <nav class="nav-links" aria-label="Primary navigation">
+            <a href="index.html" class="nav-link">
+              <span>Home</span>
+              <i class="fa-solid fa-house"></i>
+            </a>
+            <a href="clubs.html" class="nav-link">
+              <span>Clubs</span>
+              <i class="fa-solid fa-layer-group"></i>
+            </a>
+            <a href="events.html" class="nav-link">
+              <span>Events</span>
+              <i class="fa-solid fa-calendar-days"></i>
+            </a>
+            <a href="join.html" class="nav-link">
+              <span>Join</span>
+              <i class="fa-solid fa-user-plus"></i>
+            </a>
+            <a href="highlights.html" class="nav-link active">
+              <span>Highlights</span>
+              <i class="fa-solid fa-star"></i>
+            </a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="container">
+          <header class="section-header">
+            <p class="badge">
+              <i class="fa-solid fa-award"></i>
+              Impact stories
+            </p>
+            <h1 class="section-title">What students and clubs have accomplished together.</h1>
+            <p class="page-intro">
+              Student clubs convert ideas into visible outcomes: products launched, events hosted, communities served, and careers accelerated. Explore a snapshot of recent achievements from across the university ecosystem.
+            </p>
+          </header>
+
+          <div class="highlights-layout">
+            <section aria-label="Metrics and recognition">
+              <article class="highlight-card glass">
+                <header class="card-header">
+                  <div>
+                    <h2 class="card-title">Campus‑wide achievements</h2>
+                    <p class="card-meta">Outcomes across all four club categories over the last academic year.</p>
+                  </div>
+                  <span class="card-icon" aria-hidden="true">
+                    <i class="fa-solid fa-chart-line"></i>
+                  </span>
+                </header>
+                <div class="highlight-metric">
+                  <div>
+                    <p class="highlight-metric-label">Student participation</p>
+                    <p class="highlight-metric-value">1,200+ members</p>
+                  </div>
+                  <span class="pill">
+                    <i class="fa-solid fa-user-group"></i>
+                    30% of the student body
+                  </span>
+                </div>
+                <div class="highlight-metric">
+                  <div>
+                    <p class="highlight-metric-label">Events executed</p>
+                    <p class="highlight-metric-value">95+ events</p>
+                  </div>
+                  <span class="pill">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    Workshops, fests, and competitions
+                  </span>
+                </div>
+                <div class="highlight-metric">
+                  <div>
+                    <p class="highlight-metric-label">External recognitions</p>
+                    <p class="highlight-metric-value">18 awards</p>
+                  </div>
+                  <span class="pill">
+                    <i class="fa-solid fa-trophy"></i>
+                    Inter‑college &amp; national level
+                  </span>
+                </div>
+                <div class="highlight-strip">
+                  <span class="strip-item">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    6 products released
+                  </span>
+                  <span class="strip-item">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                    9 outreach initiatives
+                  </span>
+                  <span class="strip-item">
+                    <i class="fa-solid fa-building-columns"></i>
+                    4 flagship festivals
+                  </span>
+                  <span class="strip-item">
+                    <i class="fa-solid fa-microphone-lines"></i>
+                    7 debate trophies
+                  </span>
+                </div>
+              </article>
+
+              <section class="grid grid-2" aria-label="Spotlight stories">
+                <article class="card glass-soft">
+                  <header class="card-header">
+                    <div>
+                      <h2 class="card-title">Tech for campus services</h2>
+                      <p class="card-meta">Developer Students Circle &amp; AI &amp; Data Society</p>
+                    </div>
+                    <span class="card-icon" aria-hidden="true">
+                      <i class="fa-solid fa-microchip"></i>
+                    </span>
+                  </header>
+                  <p class="card-body">
+                    A cross‑club collaboration launched a smart queuing system for key campus offices, reducing average wait times by 40%. The project involved user research, prototyping, and a public beta with real students.
+                  </p>
+                  <div class="card-tags">
+                    <span class="tag">Product thinking</span>
+                    <span class="tag">Service design</span>
+                    <span class="tag">Real deployment</span>
+                  </div>
+                </article>
+
+                <article class="card glass-soft">
+                  <header class="card-header">
+                    <div>
+                      <h2 class="card-title">National sports finals</h2>
+                      <p class="card-meta">Football Club &amp; Athletics Association</p>
+                    </div>
+                    <span class="card-icon" aria-hidden="true">
+                      <i class="fa-solid fa-medal"></i>
+                    </span>
+                  </header>
+                  <p class="card-body">
+                    The university teams reached the finals in two national‑level tournaments, earning recognition for both performance and sportsmanship, while also mentoring first‑year participants along the way.
+                  </p>
+                  <div class="card-tags">
+                    <span class="tag">High performance</span>
+                    <span class="tag">Mentorship</span>
+                    <span class="tag">National exposure</span>
+                  </div>
+                </article>
+              </section>
+            </section>
+
+            <aside aria-label="Student‑level impact">
+              <section class="highlight-grid">
+                <article class="card glass" aria-labelledby="highlight-portfolio-title">
+                  <header class="card-header">
+                    <div>
+                      <h2 id="highlight-portfolio-title" class="card-title">Portfolios that stand out</h2>
+                      <p class="card-meta">Real projects featured in internship and job applications.</p>
+                    </div>
+                    <span class="card-icon" aria-hidden="true">
+                      <i class="fa-solid fa-briefcase"></i>
+                    </span>
+                  </header>
+                  <p class="card-body">
+                    Students used their club experience to present shipped products, organized conferences, and led teams. Recruiters consistently highlighted these stories as differentiators during interviews.
+                  </p>
+                  <p class="highlight-pill">
+                    <i class="fa-solid fa-square-poll-vertical"></i>
+                    Members reported higher interview confidence and clearer career narratives.
+                  </p>
+                </article>
+
+                <article class="card glass" aria-labelledby="highlight-community-title">
+                  <header class="card-header">
+                    <div>
+                      <h2 id="highlight-community-title" class="card-title">Community and wellbeing</h2>
+                      <p class="card-meta">Clubs as safe spaces during intense academic periods.</p>
+                    </div>
+                    <span class="card-icon" aria-hidden="true">
+                      <i class="fa-solid fa-heart-pulse"></i>
+                    </span>
+                  </header>
+                  <p class="card-body">
+                    Regular meetups, practice sessions, and creative rehearsals provided structure, accountability, and support networks that helped students navigate demanding semesters more sustainably.
+                  </p>
+                  <p class="highlight-pill">
+                    <i class="fa-solid fa-users-line"></i>
+                    Members highlighted friendships and mentorship as their key takeaway.
+                  </p>
+                </article>
+
+                <article class="card glass" aria-labelledby="highlight-leadership-title">
+                  <header class="card-header">
+                    <div>
+                      <h2 id="highlight-leadership-title" class="card-title">Leadership in action</h2>
+                      <p class="card-meta">From first‑year volunteers to club presidents.</p>
+                    </div>
+                    <span class="card-icon" aria-hidden="true">
+                      <i class="fa-solid fa-crown"></i>
+                    </span>
+                  </header>
+                  <p class="card-body">
+                    Many student leaders started as volunteers and gradually took on responsibility for projects, people, and budgets, learning how to lead teams in a structured yet experimental environment.
+                  </p>
+                  <p class="highlight-pill">
+                    <i class="fa-solid fa-timeline"></i>
+                    Leadership journeys typically span 3–4 semesters of consistent engagement.
+                  </p>
+                </article>
+
+                <article class="card glass" aria-labelledby="highlight-what-next-title">
+                  <header class="card-header">
+                    <div>
+                      <h2 id="highlight-what-next-title" class="card-title">Where you can start</h2>
+                      <p class="card-meta">Translate these stories into your own path.</p>
+                    </div>
+                    <span class="card-icon" aria-hidden="true">
+                      <i class="fa-solid fa-compass-drafting"></i>
+                    </span>
+                  </header>
+                  <p class="card-body">
+                    Use the portal to pick a starting point: contribute to an upcoming event, volunteer for a small project, or shadow a team lead. Progress comes from a series of small, consistent contributions.
+                  </p>
+                  <div class="btn-row" style="margin-top: 0.9rem">
+                    <a href="events.html" class="btn btn-outline">
+                      <span>Find an event</span>
+                      <i class="fa-solid fa-calendar-week"></i>
+                    </a>
+                    <a href="join.html" class="btn btn-primary">
+                      <span>Begin your journey</span>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </article>
+              </section>
+            </aside>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-inner">
+          <p>&copy; <span id="year"></span> University Student Clubs Portal. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="clubs.html">
+              <i class="fa-solid fa-layer-group"></i>
+              Explore clubs
+            </a>
+            <a href="join.html">
+              <i class="fa-solid fa-user-plus"></i>
+              Join a club
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
